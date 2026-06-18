@@ -1,0 +1,196 @@
+{
+  "title": "De Verborgen Republiek",
+  "subject": "Geschiedenis",
+  "audience": "vmbo bk leerjaar 1",
+  "chapter": "Hoofdstuk 6 - Tijd van ontdekkers en hervormers, 1500-1600",
+  "subtitle": "Escape room over",
+  "mission": "Speel vijf kamers. Los de puzzels op. Verzamel de codes en open de kluis.",
+  "instructions": [
+    "Lees het verhaal rustig.",
+    "Bekijk de vraag goed.",
+    "Gebruik de hint als je vastloopt.",
+    "De finale gaat over het jaar waarin de Republiek ontstond."
+  ],
+  "glossaryIntro": "Lees hier korte uitleg bij moeilijke woorden. Het boek helpt je denken, maar geeft geen codes.",
+  "glossary": [
+    { "term": "kolonie", "explanation": "Een gebied ver weg dat door een Europees land wordt bestuurd.", "help": "Hoort bij ontdekkingsreizen en macht." },
+    { "term": "wereldhandel", "explanation": "Handel tussen landen en werelddelen.", "help": "Hoort bij schepen, handel en specerijen." },
+    { "term": "hervorming", "explanation": "Een verandering in de kerk. Er kwamen protestantse kerken naast de katholieke kerk.", "help": "Hoort bij nieuwe ideeën over geloof." },
+    { "term": "katholiek", "explanation": "Christen die hoort bij de paus en de katholieke kerk.", "help": "Hoort bij de oude kerk in West-Europa." },
+    { "term": "ketter", "explanation": "Iemand met geloofsideeën die volgens de katholieke kerk verboden waren.", "help": "Hoort bij ruzie over geloof." },
+    { "term": "protestant", "explanation": "Christen die door de hervorming niet bij de katholieke kerk bleef.", "help": "Hoort bij de hervorming." },
+    { "term": "Beeldenstorm", "explanation": "In 1566 werden beelden in kerken kapotgemaakt.", "help": "Hoort bij onrust in de Nederlanden." },
+    { "term": "gewest", "explanation": "Een gebied in de Nederlanden. Het lijkt op een provincie.", "help": "Hoort bij bestuur." },
+    { "term": "landvoogd", "explanation": "Bestuurder die namens de koning regeerde.", "help": "Hoort bij bestuur namens Filips II." },
+    { "term": "stadhouder", "explanation": "Bestuurder van een gewest namens de koning.", "help": "Hoort bij bestuur in een gewest." },
+    { "term": "Staten-Generaal", "explanation": "Vergadering van mensen uit de gewesten.", "help": "Hoort bij samen overleggen over bestuur." },
+    { "term": "watergeuzen", "explanation": "Opstandelingen met schepen. Zij vochten vanaf zee tegen de Spanjaarden.", "help": "Hoort bij de opstand tegen Spanje." }
+  ],
+  "rooms": [
+    {
+      "id": "kamer-1-haven-specerijen",
+      "name": "De Haven van Specerijen",
+      "subject": "Ontdekkingsreizen en specerijenhandel",
+      "learningGoal": "Je legt uit waarom Europeanen zelf naar Azië wilden varen.",
+      "story": "Je staat in een drukke haven. Peper, kaneel en nootmuskaat zijn duur. Kooplieden willen zelf naar Azië varen. Dan betalen zij minder tussenhandelaren.",
+      "type": "multiple_choice",
+      "question": "Waarom wilden Europese handelaren zelf naar Azië varen?",
+      "conceptHelp": [
+        { "term": "wereldhandel", "explanation": "Handel tussen landen en werelddelen." },
+        { "term": "tussenhandel", "explanation": "Handel via extra verkopers tussen maker en koper." }
+      ],
+      "answers": [
+        { "id": "a", "text": "Ze wilden tussenhandel overslaan en meer winst maken." },
+        { "id": "b", "text": "Ze wilden stoppen met specerijenhandel." },
+        { "id": "c", "text": "Ze zochten vooral nieuwe visplekken." }
+      ],
+      "correct": "a",
+      "hint": "Specerijen werden duur door de tussenhandel.",
+      "feedbackCorrect": "Klopt. Zonder tussenhandel konden handelaren meer verdienen.",
+      "feedbackWrong": "Nog niet. Denk aan specerijen, tussenhandel en winst.",
+      "interlude": "Je stopt de eerste code in je inventaris. Op een kaart zie je een route naar de Kaartenkamer.",
+      "code": "1492"
+    },
+    {
+      "id": "kamer-2-kaartenkamer",
+      "name": "De Kaartenkamer",
+      "subject": "Columbus en Vasco da Gama",
+      "learningGoal": "Je koppelt ontdekkingsreizigers aan hun route.",
+      "story": "In de kamer liggen twee zeekaarten. Columbus voer naar het westen. In 1492 kwam hij in Amerika. Hij dacht dat hij Indië had bereikt. Vasco da Gama voer via Afrika naar India.",
+      "type": "matching",
+      "question": "Koppel de ontdekkingsreiziger aan de juiste route.",
+      "conceptHelp": [
+        { "term": "route", "explanation": "De weg die iemand reist." },
+        { "term": "Indië", "explanation": "Oude naam die Europeanen gebruikten voor delen van Azië." }
+      ],
+      "pairs": [
+        { "id": "columbus", "left": "Columbus" },
+        { "id": "vasco-da-gama", "left": "Vasco da Gama" }
+      ],
+      "answers": [
+        { "id": "west-amerika", "text": "voer in 1492 naar het westen en kwam in Amerika" },
+        { "id": "afrika-india", "text": "voer via Afrika naar India" }
+      ],
+      "correct": { "columbus": "west-amerika", "vasco-da-gama": "afrika-india" },
+      "hint": "Columbus dacht dat hij Indië bereikte. Vasco da Gama kwam echt in India.",
+      "feedbackCorrect": "Goed. Columbus kwam in 1492 in Amerika. Vasco da Gama bereikte India via Afrika.",
+      "feedbackWrong": "Nog niet. Columbus voer naar het westen. Vasco da Gama voer via Afrika naar India.",
+      "interlude": "De juiste route licht op. Achter de kaart ligt een gedrukt pamflet. Dat wijst naar de Drukperskamer.",
+      "code": "INDIA"
+    },
+    {
+      "id": "kamer-3-drukperskamer",
+      "name": "De Drukperskamer",
+      "subject": "Nieuwe ideeën en hervorming",
+      "learningGoal": "Je legt uit dat de drukpers ideeën sneller verspreidde en dat de hervorming de kerk veranderde.",
+      "story": "De drukpers maakt snel veel boeken en pamfletten. Ideeën gaan daardoor sneller rond. Erasmus wilde de kerk verbeteren. Luther en Calvijn hadden kritiek op de katholieke kerk.",
+      "type": "true_false",
+      "question": "Kies bij elke uitspraak: waar of niet waar.",
+      "conceptHelp": [
+        { "term": "hervorming", "explanation": "Een verandering in de kerk. Er kwamen protestantse kerken naast de katholieke kerk." },
+        { "term": "protestant", "explanation": "Christen die door de hervorming niet bij de katholieke kerk bleef." },
+        { "term": "ketter", "explanation": "Iemand met geloofsideeën die volgens de katholieke kerk verboden waren." }
+      ],
+      "statements": [
+        { "id": "drukpers", "text": "Door de drukpers kwamen ideeën sneller bij mensen." },
+        { "id": "erasmus", "text": "Erasmus wilde de kerk verbeteren." },
+        { "id": "luther-calvijn", "text": "Luther en Calvijn hadden kritiek op de katholieke kerk." },
+        { "id": "protestant", "text": "Een protestant bleef altijd bij de katholieke kerk." },
+        { "id": "ketter", "text": "Een ketter had geloofsideeën die volgens de katholieke kerk verboden waren." },
+        { "id": "kerken", "text": "Door de hervorming kwamen er katholieke en protestantse kerken." }
+      ],
+      "correct": { "drukpers": true, "erasmus": true, "luther-calvijn": true, "protestant": false, "ketter": true, "kerken": true },
+      "hint": "Lees de begripshulp. Erasmus wilde verbeteren. Luther en Calvijn hadden kritiek.",
+      "feedbackCorrect": "Goed. De drukpers verspreidde ideeën snel. Erasmus wilde verbeteren. Luther en Calvijn hadden kritiek op de katholieke kerk.",
+      "feedbackWrong": "Nog niet. Kijk naar drukpers, hervorming, katholiek en protestant.",
+      "interlude": "Het pamflet noemt Filips II. De volgende deur gaat open naar zijn zaal.",
+      "code": "BOEK"
+    },
+    {
+      "id": "kamer-4-zaal-filips-ii",
+      "name": "De Zaal van Filips II",
+      "subject": "De Nederlanden komen in opstand",
+      "learningGoal": "Je noemt oorzaken van de opstand tegen Filips II.",
+      "story": "Filips II is koning over Spanje en de Nederlanden. Hij wil meer controle. Hij wil ook dat de mensen katholiek blijven. De gewesten willen hun eigen regels houden. In 1566 is de Beeldenstorm. Daarna worden protestanten streng vervolgd.",
+      "type": "multi_select",
+      "question": "Waarom kwamen de Nederlanden in opstand tegen Filips II? Kies alle juiste antwoorden.",
+      "conceptHelp": [
+        { "term": "gewest", "explanation": "Een gebied in de Nederlanden. Het lijkt op een provincie." },
+        { "term": "Beeldenstorm", "explanation": "In 1566 werden beelden in kerken kapotgemaakt." }
+      ],
+      "answers": [
+        { "id": "meer-controle", "text": "Filips II wilde meer controle." },
+        { "id": "eigen-regels", "text": "De gewesten wilden hun eigen regels houden." },
+        { "id": "iedereen-katholiek", "text": "Filips II wilde dat iedereen katholiek bleef." },
+        { "id": "vervolging-protestanten", "text": "Protestanten werden streng vervolgd." },
+        { "id": "geen-handel", "text": "Filips II verbood alle specerijenhandel." }
+      ],
+      "correct": ["meer-controle", "eigen-regels", "iedereen-katholiek", "vervolging-protestanten"],
+      "hint": "Er zijn vier goede antwoorden. Denk aan macht, regels en geloof.",
+      "feedbackCorrect": "Goed. De opstand ging over macht, eigen regels en geloof.",
+      "feedbackWrong": "Nog niet. Kies antwoorden over macht, bestuur en geloof.",
+      "interlude": "Je hoort rumoer in de haven. Daar wachten de watergeuzen met hun schepen.",
+      "code": "1566"
+    },
+    {
+      "id": "kamer-5-geuzenhaven",
+      "name": "De Geuzenhaven",
+      "subject": "Watergeuzen en Tachtigjarige Oorlog",
+      "learningGoal": "Je weet wie de watergeuzen waren en hoe de oorlog tegen Spanje heet.",
+      "story": "In de haven liggen snelle schepen. Watergeuzen vechten vanaf zee tegen de Spanjaarden. De strijd heet de Opstand of Tachtigjarige Oorlog. De oorlog duurt van 1568 tot 1648. In 1648 erkende Spanje de Republiek.",
+      "type": "text_input",
+      "question": "Hoe heetten de opstandelingen die vanaf zee tegen Spanje vochten?",
+      "conceptHelp": [
+        { "term": "watergeuzen", "explanation": "Opstandelingen die met schepen tegen Spanje vochten." },
+        { "term": "Tachtigjarige Oorlog", "explanation": "De Opstand tegen Spanje. De oorlog duurde van 1568 tot 1648." }
+      ],
+      "textPrompt": "Vul het begrip in.",
+      "correct": ["watergeuzen", "de watergeuzen"],
+      "followUp": {
+        "question": "Hoe heet de lange strijd tegen Spanje?",
+        "answers": [
+          { "id": "tachtigjarige-oorlog", "text": "Tachtigjarige Oorlog" },
+          { "id": "beeldenstorm", "text": "Beeldenstorm" },
+          { "id": "wereldhandel", "text": "Wereldhandel" }
+        ],
+        "correct": "tachtigjarige-oorlog"
+      },
+      "hint": "Het eerste woord begint met water. De oorlog duurde heel lang: tachtig jaar.",
+      "feedbackCorrect": "Goed. De watergeuzen vochten vanaf zee tegen de Spanjaarden. De strijd heet de Opstand of Tachtigjarige Oorlog.",
+      "feedbackWrong": "Nog niet. Denk aan schepen en aan de lange oorlog tegen Spanje.",
+      "interlude": "Alle kamercodes zijn verzameld. De weg naar de Kluis van de Republiek is vrij.",
+      "code": "GEUS"
+    }
+  ],
+  "finale": {
+    "id": "finale-kluis-republiek",
+    "name": "De Kluis van de Republiek",
+    "question": "In welk jaar ontstond de Republiek der Zeven Verenigde Nederlanden?",
+    "type": "text_input",
+    "conceptHelp": [
+      { "term": "Republiek", "explanation": "Land zonder koning. Bestuurders nemen samen besluiten." },
+      { "term": "Zeven Verenigde Nederlanden", "explanation": "Zeven gewesten die gingen samenwerken." }
+    ],
+    "correct": "1588",
+    "endCode": "1588",
+    "hint": "Het jaartal is ook de eindcode.",
+    "feedbackWrong": "Nog niet. Zoek het jaar waarin de Republiek ontstond.",
+    "intro": "Je hebt alle kamers opgelost. De fakkel brandt nog. Nu open je de kluis."
+  },
+  "ending": {
+    "title": "De Verborgen Republiek is open",
+    "text": "Je kent nu de route: ontdekkingsreizen, handel, drukpers, hervorming, opstand, watergeuzen en de Republiek.",
+    "rewardTitle": "Eindbeloning: Zegel van de Republiek",
+    "rewardText": "Je hebt de geheime route gevonden. De kluis geeft jou het zegel van een jonge Republiek.",
+    "learnedSummary": [
+      "Europeanen wilden zelf naar Azië varen voor handel en winst.",
+      "Columbus kwam in 1492 in Amerika. Hij dacht dat hij Indië had bereikt.",
+      "Vasco da Gama voer via Afrika naar India.",
+      "De drukpers verspreidde nieuwe ideeën snel.",
+      "Erasmus wilde de kerk verbeteren. Luther en Calvijn hadden kritiek op de katholieke kerk.",
+      "Door geloof en macht kwam er opstand tegen Filips II.",
+      "De watergeuzen hoorden bij de Opstand of Tachtigjarige Oorlog.",
+      "In 1588 ontstond de Republiek. Spanje erkende de Republiek in 1648."
+    ]
+  }
+}
