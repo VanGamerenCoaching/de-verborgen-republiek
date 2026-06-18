@@ -1,0 +1,12 @@
+{
+  "defaultChapter": "hoofdstuk-6",
+  "chapters": [
+    {
+      "id": "hoofdstuk-6",
+      "title": "Hoofdstuk 6",
+      "subtitle": "Tijd van ontdekkers en hervormers, 1500-1600",
+      "description": "Ontdekkingsreizen, drukpers, hervorming, opstand en het ontstaan van de Republiek.",
+      "file": "data/escape-room.json"
+    }
+  ]
+}
