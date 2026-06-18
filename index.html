@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>De Verborgen Republiek</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <noscript>
+      <section class="noscript">
+        <h1>JavaScript is nodig</h1>
+        <p>Deze escape room werkt met JavaScript in de browser.</p>
+      </section>
+    </noscript>
+
+    <div class="app-shell">
+      <header class="site-header">
+        <div>
+          <p id="metaText" class="eyebrow">Geschiedenis - vmbo bk leerjaar 1</p>
+          <h1 id="gameTitle">De Verborgen Republiek</h1>
+          <p id="subtitle" class="subtitle">Escape room wordt geladen.</p>
+        </div>
+        <div class="player-card" aria-label="Anonieme speler">
+          <span class="avatar" aria-hidden="true">🗝️</span>
+          <span><span class="player-label">Speler</span><strong>Anonieme onderzoeker</strong></span>
+        </div>
+      </header>
+
+      <main class="game-layout">
+        <aside class="side-panel" aria-label="Voortgang">
+          <section class="panel-section">
+            <h2>Missie</h2>
+            <p id="missionText">Los vijf kamers op en open de kluis.</p>
+          </section>
+          <section class="panel-section">
+            <h2>Voortgang</h2>
+            <div id="progressTrack" class="progress-track" role="progressbar" aria-label="Voortgang" aria-valuemin="0" aria-valuemax="5" aria-valuenow="0"><span id="progressFill"></span></div>
+            <p id="progressText" class="small-text">0 van 5 kamers opgelost.</p>
+          </section>
+          <section class="panel-section">
+            <h2>Fakkel-energie</h2>
+            <div class="energy-track" role="meter" aria-label="Fakkel-energie" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"><span id="energyFill"></span></div>
+            <p class="small-text">Geen timer. Denk rustig na.</p>
+          </section>
+          <section class="panel-section">
+            <h2>Kamers</h2>
+            <ol id="roomList" class="room-list"></ol>
+          </section>
+          <section class="panel-section">
+            <h2>Inventaris</h2>
+            <p id="inventoryText" class="small-text">Nog geen codes verzameld.</p>
+            <div id="codeFragments" class="fragment-list" aria-live="polite"></div>
+          </section>
+          <button id="glossaryButton" class="book-button" type="button">📖 Begrippenboek</button>
+          <button id="teacherButton" class="teacher-button" type="button">Docentantwoord tonen</button>
+          <button id="resetButton" class="ghost-button" type="button">Voortgang wissen</button>
+        </aside>
+
+        <section class="play-area" aria-live="polite">
+          <article id="gameView" class="room-view"><p>De game wordt geladen...</p></article>
+        </section>
+      </main>
+    </div>
+
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <section class="modal-panel">
+        <header class="modal-header">
+          <h2 id="modalTitle">Paneel</h2>
+          <button id="modalClose" class="close-button" type="button" aria-label="Sluiten">×</button>
+        </header>
+        <div id="modalContent"></div>
+      </section>
+    </div>
+
+    <script src="src/main.js" defer></script>
+  </body>
+</html>
