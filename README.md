@@ -79,7 +79,6 @@ style.css
 src/main.js
 data/escape-room.json
 data/chapters.json
-data/hoofdstuk-6.json
 README.md
 .nojekyll
 ```
